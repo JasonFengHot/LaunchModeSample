@@ -18,21 +18,26 @@
         </activity>
 
         <activity
+            android:label="standard"
             android:name=".StandardLaunchActivity"
             android:launchMode="standard">
         </activity>
 
         <activity
+            android:label="singleTop"
             android:name=".SingleTopLaunchActivity"
             android:launchMode="singleTop">
         </activity>
 
         <activity
+            android:label="singleInstance"
             android:name=".SingleInstanceLaunchActivity"
             android:launchMode="singleInstance">
         </activity>
 
-        <activity android:name=".SingleTaskLaunchActivity"
+        <activity
+            android:label="singleTask"
+            android:name=".SingleTaskLaunchActivity"
             android:launchMode="singleTask"
             >
         </activity>
